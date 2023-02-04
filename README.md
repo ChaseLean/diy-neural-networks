@@ -24,7 +24,7 @@ The training of models can be monitored using real-time animations, including co
 
 #### Data Generation
 
-Several functions are available to 
+Several functions are used to generate data to test the functionality of the program. They can easily be substituted with real world data.
 
 ## Functionality
 
@@ -34,7 +34,7 @@ For example, a classifier can be constructed as follows:
 
 ```
 # The classes and their methods are found in the [Modules] folder.
-# X, y, X_val, y_val are the testing and validation data
+# X, y, X_val, y_val are the training and validation data
 
 # model = Model()
 # model.add(Layer_Dense(2, 64, weight_regularizer_l2=5e-4, bias_regularizer_l2=5e-4))
@@ -52,9 +52,14 @@ Output:
 
 <img src="assets/animation2.gif" style="width:800px;"/>
 
-The neural network can also be constructed to perform multivariate regression and binary logistic regression.
+```
+>>> Accuracy : 0.86333
+>>> Loss     : 0.39588
+```
 
-A model was train to classify images from the Fashion MNIST dataset:
+A model was trained to classify images from the Fashion MNIST dataset.
+
+<img src="assets/shirt.jpg" style="width:600px;"/>
 
 ```
 Prediction  : T-shirt/top
