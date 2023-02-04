@@ -6,7 +6,7 @@ However, for my first project, I decided to explore how neural networks actually
 
 This project is based on the book [Neural Networks from Scratch in Python](https://nnfs.io/).
 
-<img src="assets/regression.jpg" style="width:500px;"/>
+<img src="assets/animation.gif" style="width:800px;"/>
 
 ## Content
 
@@ -46,11 +46,11 @@ For example, a classifier can be constructed as follows:
 
 # model.set(loss=Loss_CategoricalCrossentropy(), optimizer=Optimizer_Adam(learning_rate=0.01, decay=5e-7), accuracy=Accuracy_Categorical(), visualizer=visualizer)
 # model.finalize()
-# model.train(X, y, epochs=10000, validation_data=(X_val, y_val))
+# model.train(X, y, epochs=1000, validation_data=(X_val, y_val))
 ```
 Output:
 
-<img src="assets/classification.jpg" style="width:500px;"/>
+<img src="assets/animation2.gif" style="width:800px;"/>
 
 The neural network can also be constructed to perform multivariate regression and binary logistic regression.
 
@@ -69,6 +69,12 @@ Sneaker     : 0.0
 Bag         : 0.014
 Ankle boot  : 0.0
 ```
+
+## Run the project
+
+
+
+## Credits
 
 
 
