@@ -77,9 +77,7 @@ Ankle boot  : 0.0
 
 ## Run the project
 
-
-
-## Credits
-
-
-
+```
+git clone https://github.com/ChaseLean/diy-neural-networks
+```
+Examples for classification and regression are available in `demo.py`. To run it on the Fashion MNIST dataset, first run `mnist_prep.py` to download the data and then `mnist.py` to build the model. After that, run the relevant section of code in `demo.py`.
